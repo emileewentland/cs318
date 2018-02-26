@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.blurb {
+    width: 90%;
+    box-shadow: 3px 3px 3px #272626;
+    font-family: 'Quicksand', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    min-height: 202px;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left {
+    background-color: rgb(122, 223, 122);
+    background-image: url(harry.jpg);
+    background-position: left;
+    padding-left: 250px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.right {
+    background-color: rgb(62, 62, 235);
+    margin-left: auto;
+    background-image: url(taylor.jpg);
+    background-position: right;
+    padding-left: 700px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#header {
+    background-image: linear-gradient(to right, rgb(122, 223, 122), rgb(62, 62, 235)); 
+    box-shadow: inset 0 -5px 5px white;
+    padding-top: 0;
+    padding-bottom: 1px;
+}
+
+#face {
+    color:rgb(62, 62, 235);
+    display: inline-block;
+}
+
+#off {
+    color: rgb(122, 223, 122);
+    display: inline-block;
+}
