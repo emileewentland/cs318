@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("cork.jpg");
+    background-repeat: repeat repeat;
+}
+
+.photo {
+    border: solid;
+    border-color: white;
+    display: inline-block;
+    border-top-width: 15px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-bottom-width: 70px;
+    margin: 15px;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+}
+
+#pushpin {
+    width: 75px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.label {
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#pug {
+    top: 10px;
+    left: 5px;
+    transform: rotate(5deg);
+}
+
+#koala {
+    top: 5px;
+    left: 10px;
+    transform: rotate(-5deg);
+}
