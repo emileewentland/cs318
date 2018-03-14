@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
+header {
+    background-color: pink;
+}
+
+main {
+    background-color: rgb(177, 132, 177);
+    display: inline-block;
+    width: calc(100% - 200px);
+}
+
+nav {
+    background-color: rgb(144, 144, 252);
+    float: left;
+    width: 100%;
+}
+
+span {
+    display: none;
+}
+@media (min-width: 600px) {
+    nav {
+        width: 200px;
+    }
+    span {
+        display: inline;
+    }
+    li {
+        display: block;
+    }
+    ul {
+        display: block;
+    }
+    aside {
+        float: right;
+        margin: 5px;
+        width: 150px;
+    }
+}
+
+aside {
+    padding: 5px;
+    font-size: 16px;
+    background-color: pink;
+    
+}
+
+.poem {
+    margin-left: 75px;
+    margin-right: 75px;
+    white-space: pre-wrap;
+}
