@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    background-color: rgb(173, 173, 173);
+    padding: 5px;
+    left: 0;
+    border: 2px;
+    border-radius: 2%;
+    width: 500px;
+    font-size: 14pt;
+}
+
+#submit {
+    background-color: blue;
+    color: white;
+    width: 75px;
+    height: 30px;
+    font-size: 16pt;
+    border: 0;
+}
+
+.value {
+    color: gray;
+    font-size: 14pt;
+}
