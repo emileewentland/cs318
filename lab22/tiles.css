@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+#gallery {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px gray;
+    margin: 5px;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
