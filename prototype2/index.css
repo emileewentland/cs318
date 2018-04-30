@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffc0cb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepic {
+    display: block;
+    width: 40%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Coming Soon', cursive;
+}
+
+nav {
+    width: 100%;
+    margin-left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline;
+    background-color: rgb(201, 195, 195);
+    margin: 2px;
+    padding: 4px;
+    box-shadow: 1px 0 5px darkgray;
+    transition-property: transform, background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    transform: translate(10px, 0);
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#kimberly {
+    display: none;
+}
+
+.slideshow {
+    width: 200px;
+    margin: 5px;
+}
+
+figure {
+    float: left;
+    width: 200px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+figcaption {
+    margin-left: 10px;
+    font-size: 14pt;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+main {
+    margin-bottom: 50px;
+    font-size: 18pt;
+}
+
+main p {
+    width: 85%;
+    background-color: rgb(243, 224, 224);
+    box-shadow: 2px 2px 10px lightgrey;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.services {
+    background-color: rgb(243, 224, 224);
+    box-shadow: 2px 2px 10px lightgrey;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+#topright, #bottomright {
+    margin-left: 20px;
+}
+
+.right {
+    margin-left: 30px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-left: 10px;
+}
+
+.arrow {
+    width: 15px;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+
+@media (min-width: 700px) {
+    body {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #kimberly {
+        float: right;
+        display: block;
+        width: 250px;
+        box-shadow: 3px 3px 2px darkgrey;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
+
+    blockquote {
+        margin-left: 300px;
+        margin-right: 0;
+    }
+
+    main p {
+        margin-left: 250px;
+        margin-top: 5px;
+        width: 75%;
+        margin-bottom: 0;
+    }
+
+    nav {
+        float: left;
+        width: 200px;
+        margin-top: 12px;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 22pt;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+        background-color: rgb(201, 195, 195);
+        width: 230px;
+        height: 40px;
+        padding: 5px;
+        box-shadow: 1px 0 5px darkgray;
+        border-radius: 5px;
+    }
+
+    h1 {
+        width: 700px;
+        margin-left: 250px;
+        margin-bottom: 5px;
+    }
+
+    main ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    main ul li {
+        margin-left: 290px;
+        margin-right: 0;
+        width: 75%;
+    }
+
+    .galleries {
+        margin-left: 250px;
+    }
+
+    form {
+        margin-left: 250px;
+    }
+
+    textarea {
+        margin-top: 10px;
+    }
+}
