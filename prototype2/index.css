@@ -179,12 +179,12 @@ input {
     main ul {
         margin-left: 0;
         padding-left: 0;
+        width: 75%;
     }
 
     main ul li {
-        margin-left: 290px;
+        margin-left: 45px;
         margin-right: 0;
-        width: 75%;
     }
 
     .galleries {
@@ -197,5 +197,9 @@ input {
 
     textarea {
         margin-top: 10px;
+    }
+
+    .faq {
+        margin-left: 270px;
     }
 }
